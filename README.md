@@ -1,6 +1,6 @@
 # pixel-maker
 
-This is my version of **Pixel Lab** for Udacity
+This is my version of **Pixel Maker** for Udacity
 
 **Save function only works on live version below**
 
