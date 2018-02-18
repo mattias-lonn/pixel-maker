@@ -41,8 +41,8 @@ imagealphablending($im, true);
 $white = 0x00ffffff;
 
 
-$icon1 = imagecreatefrompng('/var/www/developerhelp.org/htdocs/udacity/projects/pixellabdone.png');
-$icon2 = imagecreatefrompng('/var/www/developerhelp.org/htdocs/udacity/projects/pixellabwhite.png');
+$icon1 = imagecreatefrompng('/udacity/projects/pixellabdone.png');
+$icon2 = imagecreatefrompng('/udacity/projects/pixellabwhite.png');
 imagefill($im, 0, 0);
 
 foreach ($image as $img) {
@@ -63,7 +63,7 @@ foreach ($image as $img) {
 if ($isimg) {
 $name = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 20);
 
-imagepng($im,"/var/www/developerhelp.org/htdocs/img/uploads/bead_".$name.".png");
+imagepng($im,"/img/uploads/bead_".$name.".png");
 imagedestroy($im);
 
 die("<br><strong>Your Image File: http://developerhelp.org/img/uploads/bead_".$name.".png</strong>");
