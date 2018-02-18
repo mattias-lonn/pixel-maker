@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1><s>Pixel</s> Art <img src="img/beadsed.png"> Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" max="50" value="20"> Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" max="50" value="20">
+        <input id="makeGrid" type="button" value="Make Grid"> <input id="export" type="button" value="Save as IMAGE">
+    </form>
+
+    <div id="imagefile"></div>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker" value="#5b7ab3">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

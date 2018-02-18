@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: Monoton;
+  font-weight: normal;
+  font-size: 70px;
+  margin: 0.2em;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2: first-of-type {
+  margin-top: 0.5em;
+}
+
+tr, td {
+  border: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 2px solid #e5e5e5;
+  background-color: white;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+  height: 20px;
+  background: center/cover url("../img/pixellab.png");
+}
+
+input[type=number] {
+  width: 6em;
+}
+
